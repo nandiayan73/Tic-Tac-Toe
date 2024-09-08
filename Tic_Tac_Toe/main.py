@@ -105,9 +105,9 @@ def find_best_move(board):
 
 # Example board
 board = [
-    ['X', 'O', '0'],
-    ['O', 'O', 'X'],
-    ['_', '_', '_']
+    ['_', 'O', '0'],
+    ['_', '_', 'X'],
+    ['X', '_', 'X']
 ]
 
 best_move = find_best_move(board)
